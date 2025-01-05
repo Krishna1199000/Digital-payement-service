@@ -42,5 +42,3 @@ jobs:
           sudo docker run -d --name web-app -p 3005:3000 krrishna677/paytm:latest:latest 
 
 
-
-# done
