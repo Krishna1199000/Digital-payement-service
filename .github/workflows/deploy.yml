@@ -24,10 +24,10 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: krrishna677/paytm:latest  # Replace with your Docker Hub username and repository
+        tags: krrishna677/paytm:latest  
 
     - name: Verify Pushed Image
-      run: docker pull krrishna677/paytm:latest  # Replace with your Docker Hub username and repository
+      run: docker pull krrishna677/paytm:latest  
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@master
